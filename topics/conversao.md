@@ -1,42 +1,42 @@
 
-	- conversao entre tipos de dados
+- conversao entre tipos de dados
 
-	```go
-	var x int16 = 10
-	var y int64 = int64(x)
-	```
-
-
-	-  conversao entre floats
-
-	```go	
-	var a float32 = 3.14
-	var b float64 = float64(a)
-	```
+```go
+var x int16 = 10
+var y int64 = int64(x)
+```
 
 
-	- conversao entre float e inteiro
+-  conversao entre floats
 
-	```go
-	var c float32 = 2.5
-	var d int16 = int16(c)
+```go	
+var a float32 = 3.14
+var b float64 = float64(a)
+```
 
-	```
 
-	- conversao string para inteiro
+- conversao entre float e inteiro
 
-	```go	
-	strQualquer := "777"
+```go
+var c float32 = 2.5
+var d int16 = int16(c)
 
-	numQualquer, err := strconv.Atoi(strQualquer)
+```
 
-	-control de exceções
-	-se houver um erro
-	if err != nil {
-		fmt.Println("Erro durante conversão de string em inteiro: ", err)
-		return
-	}
+- conversao string para inteiro
 
-	fmt.Println("Numero inteiro: ", numQualquer)
+```go	
+strQualquer := "777"
 
-	```
+numQualquer, err := strconv.Atoi(strQualquer)
+
+-control de exceções
+-se houver um erro
+if err != nil {
+	fmt.Println("Erro durante conversão de string em inteiro: ", err)
+	return
+}
+
+fmt.Println("Numero inteiro: ", numQualquer)
+
+```
