@@ -11,7 +11,7 @@ var x int
 ```go
 var x int
 x = 5
-	```
+```
 
 - declaração tipada com atribuição de valor inicial
 
